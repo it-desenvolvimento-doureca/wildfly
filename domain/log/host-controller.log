@@ -1,0 +1,35 @@
+2017-05-31 15:36:19,825 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-05-31 15:36:20,038 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-05-31 15:36:20,088 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-05-31 15:36:20,824 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)
+2017-05-31 15:36:20,827 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.4.0.Final
+2017-05-31 15:36:20,837 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.4.0.Final
+2017-05-31 15:36:20,916 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2017-05-31 15:36:20,927 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\Users\it2\wildfly-10.0.0.Final\domain\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-05-31 15:36:21,032 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Listening on 127.0.0.1:9999
+2017-05-31 15:36:21,140 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: java.net.BindException: Address already in use: bind /127.0.0.1:9990
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:273)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2017-05-31 15:36:21,202 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.serverManagement.controller.management.http" => "org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: java.net.BindException: Address already in use: bind /127.0.0.1:9990"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.serverManagement.controller.management.http"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2017-05-31 15:36:21,238 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.serverManagement.controller.management.http (missing) dependents: [service jboss.serverManagement.controller.management.http.shutdown] 
+      service jboss.serverManagement.controller.management.http.requests (missing) dependents: [service jboss.serverManagement.controller.management.http.shutdown] 
+WFLYCTL0186:   Services which failed to start:      service jboss.serverManagement.controller.management.http
+
+2017-05-31 15:36:21,239 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0034: Host Controller boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-05-31 15:36:21,240 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99
+2017-05-31 15:36:21,265 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 12ms
