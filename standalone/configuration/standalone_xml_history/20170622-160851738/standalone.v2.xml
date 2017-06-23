@@ -153,6 +153,15 @@
                     <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
                     <driver>jTDS</driver>
                 </datasource>
+                <datasource jta="true" jndi-name="java:jboss/datasources/siip" pool-name="SIIP" enabled="true" use-ccm="true">
+                    <connection-url>jdbc:jtds:sqlserver://192.168.40.101/siip;instance=DOURECA</connection-url>
+                    <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
+                    <driver>jTDS</driver>
+                    <security>
+                        <user-name>sa</user-name>
+                        <password>DourecA2@</password>
+                    </security>
+                </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
@@ -423,4 +432,10 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+
+    <deployments>
+        <deployment name="app.war" runtime-name="app.war">
+            <content sha1="340819778af3223f5562ce65b2cf5e0d3dadfc8a"/>
+        </deployment>
+    </deployments>
 </server>
