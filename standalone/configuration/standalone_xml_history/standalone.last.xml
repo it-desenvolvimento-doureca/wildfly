@@ -153,8 +153,17 @@
                     <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
                     <driver>jTDS</driver>
                 </datasource>
-                <datasource jta="true" jndi-name="java:jboss/datasources/siip" pool-name="SIIP" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:jtds:sqlserver://192.168.40.101/siip;instance=DOURECA</connection-url>
+                <datasource jta="true" jndi-name="java:jboss/datasources/SGIID_DEV" pool-name="SGIID" enabled="true" use-ccm="true">
+                    <connection-url>jdbc:jtds:sqlserver://192.168.40.101/sgiid_dev;instance=DOURECA</connection-url>
+                    <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
+                    <driver>jTDS</driver>
+                    <security>
+                        <user-name>sa</user-name>
+                        <password>DourecA2@</password>
+                    </security>
+                </datasource>
+                <datasource jta="true" jndi-name="java:jboss/datasources/SGIID" pool-name="SGIID2" enabled="true" use-ccm="true">
+                    <connection-url>jdbc:jtds:sqlserver://192.168.40.101/sgiid_dev;instance=DOURECA</connection-url>
                     <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
                     <driver>jTDS</driver>
                     <security>
@@ -432,4 +441,5 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+
 </server>

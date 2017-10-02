@@ -1,0 +1,1066 @@
+2017-09-27 08:28:19,429 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-09-27 08:28:19,764 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-09-27 08:28:19,854 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-09-27 08:28:19,856 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\it2\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_144\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_144
+	java.io.tmpdir = C:\Users\it2\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\nodejs\;C:\Users\it2\wildfly-10.1.0.Final\bin;C:\Users\it2\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\it2\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\it2\wildfly-10.0.0.Final
+	jboss.host.name = dou-it-2
+	jboss.modules.dir = C:\Users\it2\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = dou-it-2
+	jboss.qualified.host.name = dou-it-2
+	jboss.server.base.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = dou-it-2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/it2/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/it2/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/it2/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_144\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/it2/wildfly-10.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\it2\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = PT
+	user.dir = C:\Users\it2\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\it2
+	user.language = pt
+	user.name = it2
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+2017-09-27 08:28:19,857 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/it2/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/it2/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/it2/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-09-27 08:28:22,513 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found app-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called app-0.0.1-SNAPSHOT.war.dodeploy
+2017-09-27 08:28:25,056 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-09-27 08:28:25,350 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2017-09-27 08:28:25,403 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2017-09-27 08:28:25,604 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-09-27 08:28:25,614 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-09-27 08:28:25,640 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-09-27 08:28:25,687 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-09-27 08:28:25,820 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-09-27 08:28:25,900 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-09-27 08:28:25,945 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-09-27 08:28:26,073 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-09-27 08:28:27,009 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-09-27 08:28:27,236 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2017-09-27 08:28:27,238 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-09-27 08:28:28,313 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2017-09-27 08:28:29,461 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-09-27 08:28:29,463 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-09-27 08:28:29,898 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 08:28:29,899 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = jTDS
+2017-09-27 08:28:30,413 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-09-27 08:28:31,922 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\it2\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-09-27 08:28:32,351 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-09-27 08:28:32,350 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-09-27 08:28:32,724 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2017-09-27 08:28:32,726 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2017-09-27 08:28:33,117 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/demoDS]
+2017-09-27 08:28:33,117 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-09-27 08:28:33,117 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/SGIID_DEV]
+2017-09-27 08:28:33,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/SGIID]
+2017-09-27 08:28:33,694 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2017-09-27 08:28:34,710 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\it2\wildfly-10.0.0.Final\standalone\deployments
+2017-09-27 08:28:34,783 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "app.war" (runtime-name: "app.war")
+2017-09-27 08:28:34,783 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "app-0.0.1-SNAPSHOT.war" (runtime-name: "app-0.0.1-SNAPSHOT.war")
+2017-09-27 08:28:34,787 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "sgiid.war" (runtime-name: "sgiid.war")
+2017-09-27 08:28:36,081 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-09-27 08:28:36,762 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:36,764 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:36,765 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:36,768 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:36,770 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:36,796 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:41,773 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2017-09-27 08:28:45,676 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-09-27 08:28:47,025 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 08:28:47,025 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 08:28:47,025 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 08:28:47,665 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'app-0.0.1-SNAPSHOT.war#persistenceUnit'
+2017-09-27 08:28:47,665 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 08:28:47,667 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'app.war#persistenceUnit'
+2017-09-27 08:28:48,190 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 08:28:48,190 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 08:28:48,191 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 08:28:48,767 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment app-0.0.1-SNAPSHOT.war
+2017-09-27 08:28:48,767 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment app.war
+2017-09-27 08:28:48,768 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment sgiid.war
+2017-09-27 08:28:49,780 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.0.10.Final}
+2017-09-27 08:28:49,781 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2017-09-27 08:28:49,782 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000021: Bytecode provider name : javassist
+2017-09-27 08:28:49,941 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.2.4.Final
+2017-09-27 08:28:50,063 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-27 08:28:50,412 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'SIRB' in deployment unit 'deployment "sgiid.war"' are as follows:
+
+	java:global/sgiid/SIRB!pt.example.rest.SIRB
+	java:app/sgiid/SIRB!pt.example.rest.SIRB
+	java:module/SIRB!pt.example.rest.SIRB
+	java:global/sgiid/SIRB
+	java:app/sgiid/SIRB
+	java:module/SIRB
+
+2017-09-27 08:28:50,412 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'SIRB' in deployment unit 'deployment "app-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/app-0.0.1-SNAPSHOT/SIRB!pt.example.rest.SIRB
+	java:app/app-0.0.1-SNAPSHOT/SIRB!pt.example.rest.SIRB
+	java:module/SIRB!pt.example.rest.SIRB
+	java:global/app-0.0.1-SNAPSHOT/SIRB
+	java:app/app-0.0.1-SNAPSHOT/SIRB
+	java:module/SIRB
+
+2017-09-27 08:28:50,413 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'SIIP' in deployment unit 'deployment "app.war"' are as follows:
+
+	java:global/app/SIIP!pt.example.rest.SIIP
+	java:app/app/SIIP!pt.example.rest.SIIP
+	java:module/SIIP!pt.example.rest.SIIP
+	java:global/app/SIIP
+	java:app/app/SIIP
+	java:module/SIIP
+
+2017-09-27 08:28:50,414 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'DemoRest' in deployment unit 'deployment "app.war"' are as follows:
+
+	java:global/app/DemoRest!pt.example.rest.DemoRest
+	java:app/app/DemoRest!pt.example.rest.DemoRest
+	java:module/DemoRest!pt.example.rest.DemoRest
+	java:global/app/DemoRest
+	java:app/app/DemoRest
+	java:module/DemoRest
+
+2017-09-27 08:28:51,173 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:51,174 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 08:28:51,379 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 08:28:51,380 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 08:28:51,417 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 08:28:51,419 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 08:28:51,420 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 08:28:51,613 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.5 (Final)
+2017-09-27 08:28:51,766 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = sgiid.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 08:28:51,767 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = sgiid.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 08:28:51,770 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = app-0.0.1-SNAPSHOT.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 08:28:51,770 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = app-0.0.1-SNAPSHOT.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 08:28:51,778 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = app.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 08:28:52,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 08:28:52,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'app-0.0.1-SNAPSHOT.war#persistenceUnit'
+2017-09-27 08:28:52,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'app.war#persistenceUnit'
+2017-09-27 08:28:52,673 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-09-27 08:28:53,468 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 08:28:53,468 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 08:28:53,468 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 08:28:53,607 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 60) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 08:28:53,608 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 64) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 08:28:53,610 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 62) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 08:28:53,656 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 60) Envers integration enabled? : true
+2017-09-27 08:28:53,656 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2017-09-27 08:28:53,656 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2017-09-27 08:29:00,409 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 64) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 08:29:00,409 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 69) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 08:29:00,409 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 08:29:00,627 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /sgiid
+2017-09-27 08:29:00,635 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /app
+2017-09-27 08:29:00,688 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /app-0.0.1-SNAPSHOT
+2017-09-27 08:29:01,487 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "sgiid.war" (runtime-name : "sgiid.war")
+2017-09-27 08:29:01,487 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "app.war" (runtime-name : "app.war")
+2017-09-27 08:29:01,487 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "app-0.0.1-SNAPSHOT.war" (runtime-name : "app-0.0.1-SNAPSHOT.war")
+2017-09-27 08:29:01,839 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2017-09-27 08:29:01,839 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+2017-09-27 08:29:01,840 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 42918ms - Started 719 of 967 services (429 services are lazy, passive or on-demand)
+2017-09-27 15:40:09,455 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2017-09-27 15:40:13,260 INFO  [stdout] (default task-5) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 15:40:13,261 INFO  [stdout] (default task-3) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 15:40:13,261 INFO  [stdout] (default task-2) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 15:40:13,263 INFO  [stdout] (default task-4) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 15:42:38,482 INFO  [stdout] (default task-7) pt.example.entity.EMAIL@1c96b78e
+2017-09-27 15:42:44,465 ERROR [org.jboss.as.ejb3.invocation] (default task-7) WFLYEJB0034: EJB Invocation failed on component SIRB for method public pt.example.entity.EMAIL pt.example.rest.SIRB.sendemail(pt.example.entity.EMAIL): javax.ejb.EJBException: java.lang.RuntimeException: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:636)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at pt.example.rest.SIRB$$$view2.sendemail(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at pt.example.bootstrap.SendEmail.enviarEmail(SendEmail.java:80)
+	at pt.example.rest.SIRB.sendemail(SIRB.java:1346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 87 more
+Caused by: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1290)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at pt.example.bootstrap.SendEmail.enviarEmail(SendEmail.java:75)
+	... 117 more
+Caused by: java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at javax.activation.FileDataSource.getInputStream(FileDataSource.java:110)
+	at javax.activation.DataHandler.writeTo(DataHandler.java:318)
+	at javax.mail.internet.MimeBodyPart.writeTo(MimeBodyPart.java:1645)
+	at javax.mail.internet.MimeBodyPart.writeTo(MimeBodyPart.java:961)
+	at javax.mail.internet.MimeMultipart.writeTo(MimeMultipart.java:553)
+	at com.sun.mail.handlers.multipart_mixed.writeTo(multipart_mixed.java:81)
+	at javax.activation.ObjectDataContentHandler.writeTo(DataHandler.java:897)
+	at javax.activation.DataHandler.writeTo(DataHandler.java:330)
+	at javax.mail.internet.MimeBodyPart.writeTo(MimeBodyPart.java:1645)
+	at javax.mail.internet.MimeMessage.writeTo(MimeMessage.java:1850)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1241)
+	... 120 more
+
+2017-09-27 15:42:44,565 ERROR [io.undertow.request] (default task-7) UT005023: Exception handling request to /sgiid/rest/sirb/sendemail: org.jboss.resteasy.spi.UnhandledException: javax.ejb.EJBException: java.lang.RuntimeException: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:77)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:220)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:175)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:418)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:221)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.ejb.EJBException: java.lang.RuntimeException: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:636)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at pt.example.rest.SIRB$$$view2.sendemail(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:139)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	... 43 more
+Caused by: java.lang.RuntimeException: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at pt.example.bootstrap.SendEmail.enviarEmail(SendEmail.java:80)
+	at pt.example.rest.SIRB.sendemail(SIRB.java:1346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 87 more
+Caused by: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1290)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at pt.example.bootstrap.SendEmail.enviarEmail(SendEmail.java:75)
+	... 117 more
+Caused by: java.io.FileNotFoundException: \sgiid_dev\relatorios\null.pdf (O sistema não conseguiu localizar o ficheiro especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at javax.activation.FileDataSource.getInputStream(FileDataSource.java:110)
+	at javax.activation.DataHandler.writeTo(DataHandler.java:318)
+	at javax.mail.internet.MimeBodyPart.writeTo(MimeBodyPart.java:1645)
+	at javax.mail.internet.MimeBodyPart.writeTo(MimeBodyPart.java:961)
+	at javax.mail.internet.MimeMultipart.writeTo(MimeMultipart.java:553)
+	at com.sun.mail.handlers.multipart_mixed.writeTo(multipart_mixed.java:81)
+	at javax.activation.ObjectDataContentHandler.writeTo(DataHandler.java:897)
+	at javax.activation.DataHandler.writeTo(DataHandler.java:330)
+	at javax.mail.internet.MimeBodyPart.writeTo(MimeBodyPart.java:1645)
+	at javax.mail.internet.MimeMessage.writeTo(MimeMessage.java:1850)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1241)
+	... 120 more
+
+2017-09-27 15:45:31,711 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0010: Scan found incompletely copied file content for deployment C:\Users\it2\wildfly-10.0.0.Final\standalone\deployments\sgiid.war. Deployment changes will not be processed until all content is complete.
+2017-09-27 15:45:37,038 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\Users\it2\wildfly-10.0.0.Final\standalone\data\content\d1\9f550b6d220719cca1ea6e3e318d7705414378\content
+2017-09-27 15:45:38,197 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = sgiid.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 15:45:38,197 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sgiid.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:45:38,535 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /sgiid
+2017-09-27 15:45:39,622 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:45:39,956 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:45:43,504 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment sgiid.war (runtime-name: sgiid.war) in 5864ms
+2017-09-27 15:45:43,633 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "sgiid.war" (runtime-name: "sgiid.war")
+2017-09-27 15:46:08,519 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 15:46:08,740 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:46:08,740 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 75) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 15:46:08,768 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment sgiid.war
+2017-09-27 15:46:09,177 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'SIRB' in deployment unit 'deployment "sgiid.war"' are as follows:
+
+	java:global/sgiid/SIRB!pt.example.rest.SIRB
+	java:app/sgiid/SIRB!pt.example.rest.SIRB
+	java:module/SIRB!pt.example.rest.SIRB
+	java:global/sgiid/SIRB
+	java:app/sgiid/SIRB
+	java:module/SIRB
+
+2017-09-27 15:46:10,096 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 15:46:10,194 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 15:46:10,198 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = sgiid.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:46:10,198 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = sgiid.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 15:46:10,278 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:46:10,327 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 75) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 15:46:10,604 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 75) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 15:46:10,621 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 75) Envers integration enabled? : true
+2017-09-27 15:46:12,145 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 15:46:12,188 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: /sgiid
+2017-09-27 15:46:14,746 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "sgiid.war" with deployment "sgiid.war"
+2017-09-27 15:46:14,789 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\Users\it2\wildfly-10.0.0.Final\standalone\data\content\8c\20e0343ef1f8757bbefb9be6c3c88d67a74192\content
+2017-09-27 15:46:14,927 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2017-09-27 15:46:15,068 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2017-09-27 15:46:15,265 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = app-0.0.1-SNAPSHOT.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 15:46:15,265 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = app-0.0.1-SNAPSHOT.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:46:15,318 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = app.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:46:15,319 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = sgiid.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:46:15,350 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /app-0.0.1-SNAPSHOT
+2017-09-27 15:46:15,351 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: /app
+2017-09-27 15:46:15,401 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /sgiid
+2017-09-27 15:46:15,403 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sgiid.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 15:46:15,458 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/SGIID]
+2017-09-27 15:46:15,459 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/demoDS]
+2017-09-27 15:46:15,626 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-09-27 15:46:15,687 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 82) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'app.war#persistenceUnit'
+2017-09-27 15:46:15,690 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'app-0.0.1-SNAPSHOT.war#persistenceUnit'
+2017-09-27 15:46:15,693 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 82) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'app-0.0.1-SNAPSHOT.war#persistenceUnit'
+2017-09-27 15:46:15,693 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'app.war#persistenceUnit'
+2017-09-27 15:46:15,698 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-09-27 15:46:15,699 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:46:15,709 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:46:15,711 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/SGIID_DEV]
+2017-09-27 15:46:15,802 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-09-27 15:46:15,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-09-27 15:46:15,808 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2017-09-27 15:46:15,858 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2017-09-27 15:46:15,858 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2017-09-27 15:46:15,865 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 82) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-09-27 15:46:15,904 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = jTDS
+2017-09-27 15:46:15,914 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-09-27 15:46:16,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment sgiid.war (runtime-name: sgiid.war) in 779ms
+2017-09-27 15:46:16,138 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment app.war (runtime-name: app.war) in 874ms
+2017-09-27 15:46:16,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment app-0.0.1-SNAPSHOT.war (runtime-name: app-0.0.1-SNAPSHOT.war) in 1299ms
+2017-09-27 15:46:16,822 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 1472ms
+2017-09-27 15:52:56,539 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-09-27 15:52:56,950 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-09-27 15:52:57,067 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-09-27 15:52:57,069 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\it2\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_144\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_144
+	java.io.tmpdir = C:\Users\it2\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\nodejs\;C:\Users\it2\wildfly-10.1.0.Final\bin;C:\Users\it2\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\it2\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\it2\wildfly-10.0.0.Final
+	jboss.host.name = dou-it-2
+	jboss.modules.dir = C:\Users\it2\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = dou-it-2
+	jboss.qualified.host.name = dou-it-2
+	jboss.server.base.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = dou-it-2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\it2\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/it2/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/it2/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/it2/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_144\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/it2/wildfly-10.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\it2\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = PT
+	user.dir = C:\Users\it2\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\it2
+	user.language = pt
+	user.name = it2
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+2017-09-27 15:52:57,070 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/it2/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/it2/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/it2/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2017-09-27 15:52:59,454 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found app-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called app-0.0.1-SNAPSHOT.war.dodeploy
+2017-09-27 15:53:00,017 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-09-27 15:53:00,147 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2017-09-27 15:53:00,180 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2017-09-27 15:53:00,381 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-09-27 15:53:00,386 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-09-27 15:53:00,408 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-09-27 15:53:00,428 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-09-27 15:53:00,473 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-09-27 15:53:00,493 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-09-27 15:53:00,553 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-09-27 15:53:00,600 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-09-27 15:53:01,294 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-09-27 15:53:01,335 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-09-27 15:53:02,475 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-09-27 15:53:02,497 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-09-27 15:53:03,151 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2017-09-27 15:53:03,152 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-09-27 15:53:03,231 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 15:53:03,235 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = jTDS
+2017-09-27 15:53:04,150 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\it2\wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-09-27 15:53:05,061 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/SGIID_DEV]
+2017-09-27 15:53:05,063 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/demoDS]
+2017-09-27 15:53:05,068 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-09-27 15:53:05,069 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/SGIID]
+2017-09-27 15:53:05,146 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2017-09-27 15:53:05,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2017-09-27 15:53:05,468 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2017-09-27 15:53:06,017 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-09-27 15:53:06,016 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-09-27 15:53:06,465 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2017-09-27 15:53:08,034 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\it2\wildfly-10.0.0.Final\standalone\deployments
+2017-09-27 15:53:08,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "sgiid.war" (runtime-name: "sgiid.war")
+2017-09-27 15:53:08,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "app-0.0.1-SNAPSHOT.war" (runtime-name: "app-0.0.1-SNAPSHOT.war")
+2017-09-27 15:53:08,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "app.war" (runtime-name: "app.war")
+2017-09-27 15:53:08,631 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-09-27 15:53:08,707 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:08,708 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:08,706 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:08,706 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:08,712 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:08,711 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:10,314 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2017-09-27 15:53:15,280 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-09-27 15:53:23,901 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 15:53:23,901 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 15:53:23,901 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for persistenceUnit
+2017-09-27 15:53:24,441 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'app.war#persistenceUnit'
+2017-09-27 15:53:24,441 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'app-0.0.1-SNAPSHOT.war#persistenceUnit'
+2017-09-27 15:53:24,441 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:53:24,801 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 15:53:24,802 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 15:53:24,801 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2017-09-27 15:53:25,057 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment app.war
+2017-09-27 15:53:25,057 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment sgiid.war
+2017-09-27 15:53:25,057 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment app-0.0.1-SNAPSHOT.war
+2017-09-27 15:53:26,348 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.10.Final}
+2017-09-27 15:53:26,349 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2017-09-27 15:53:26,350 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2017-09-27 15:53:26,729 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.2.4.Final
+2017-09-27 15:53:27,016 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-27 15:53:27,312 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'SIRB' in deployment unit 'deployment "sgiid.war"' are as follows:
+
+	java:global/sgiid/SIRB!pt.example.rest.SIRB
+	java:app/sgiid/SIRB!pt.example.rest.SIRB
+	java:module/SIRB!pt.example.rest.SIRB
+	java:global/sgiid/SIRB
+	java:app/sgiid/SIRB
+	java:module/SIRB
+
+2017-09-27 15:53:27,312 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'SIIP' in deployment unit 'deployment "app.war"' are as follows:
+
+	java:global/app/SIIP!pt.example.rest.SIIP
+	java:app/app/SIIP!pt.example.rest.SIIP
+	java:module/SIIP!pt.example.rest.SIIP
+	java:global/app/SIIP
+	java:app/app/SIIP
+	java:module/SIIP
+
+2017-09-27 15:53:27,312 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SIRB' in deployment unit 'deployment "app-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/app-0.0.1-SNAPSHOT/SIRB!pt.example.rest.SIRB
+	java:app/app-0.0.1-SNAPSHOT/SIRB!pt.example.rest.SIRB
+	java:module/SIRB!pt.example.rest.SIRB
+	java:global/app-0.0.1-SNAPSHOT/SIRB
+	java:app/app-0.0.1-SNAPSHOT/SIRB
+	java:module/SIRB
+
+2017-09-27 15:53:27,314 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DemoRest' in deployment unit 'deployment "app.war"' are as follows:
+
+	java:global/app/DemoRest!pt.example.rest.DemoRest
+	java:app/app/DemoRest!pt.example.rest.DemoRest
+	java:module/DemoRest!pt.example.rest.DemoRest
+	java:global/app/DemoRest
+	java:app/app/DemoRest
+	java:module/DemoRest
+
+2017-09-27 15:53:28,020 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:28,021 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-09-27 15:53:28,139 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 15:53:28,161 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 15:53:28,147 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2017-09-27 15:53:28,194 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 15:53:28,217 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0004: Deploying JDBC-compliant driver class com.ddtek.jdbc.openedge.OpenEdgeDriver (version 5.1)
+2017-09-27 15:53:28,357 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.5 (Final)
+2017-09-27 15:53:28,596 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = app-0.0.1-SNAPSHOT.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 15:53:28,597 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = app-0.0.1-SNAPSHOT.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:53:28,598 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = sgiid.war_net.sourceforge.jtds.jdbc.Driver_1_3
+2017-09-27 15:53:28,601 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = sgiid.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:53:28,607 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = app.war_com.ddtek.jdbc.openedge.OpenEdgeDriver_5_1
+2017-09-27 15:53:29,319 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-09-27 15:53:29,617 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'app.war#persistenceUnit'
+2017-09-27 15:53:29,617 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'sgiid.war#persistenceUnit'
+2017-09-27 15:53:29,617 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'app-0.0.1-SNAPSHOT.war#persistenceUnit'
+2017-09-27 15:53:30,488 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 15:53:30,616 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 60) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 15:53:30,652 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 60) Envers integration enabled? : true
+2017-09-27 15:53:32,087 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 15:53:32,087 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-09-27 15:53:32,174 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 59) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 15:53:32,175 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 63) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-09-27 15:53:32,183 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2017-09-27 15:53:32,183 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2017-09-27 15:53:36,014 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 15:53:36,014 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 67) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 15:53:36,014 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002225: Deploying javax.ws.rs.core.Application: class pt.example.bootstrap.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-09-27 15:53:36,278 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /app
+2017-09-27 15:53:36,310 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /sgiid
+2017-09-27 15:53:36,334 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /app-0.0.1-SNAPSHOT
+2017-09-27 15:53:36,764 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "sgiid.war" (runtime-name : "sgiid.war")
+2017-09-27 15:53:36,764 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "app.war" (runtime-name : "app.war")
+2017-09-27 15:53:36,764 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "app-0.0.1-SNAPSHOT.war" (runtime-name : "app-0.0.1-SNAPSHOT.war")
+2017-09-27 15:53:37,195 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2017-09-27 15:53:37,196 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+2017-09-27 15:53:37,196 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 41145ms - Started 719 of 967 services (429 services are lazy, passive or on-demand)
+2017-09-27 15:54:46,720 INFO  [stdout] (default task-3) pt.example.entity.EMAIL@d32c358
+2017-09-27 15:57:00,209 INFO  [stdout] (default task-4) pt.example.entity.EMAIL@5ba1c5ec
+2017-09-27 16:05:23,091 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-5) HHH000397: Using ASTQueryTranslatorFactory
+2017-09-27 16:05:23,418 INFO  [stdout] (default task-6) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:05:23,418 INFO  [stdout] (default task-7) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:05:23,419 INFO  [stdout] (default task-5) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:05:23,729 INFO  [stdout] (default task-8) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:06:19,967 INFO  [stdout] (default task-10) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:06:19,969 INFO  [stdout] (default task-9) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:06:20,101 INFO  [stdout] (default task-11) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:06:20,124 INFO  [stdout] (default task-12) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:08:54,409 INFO  [stdout] (default task-13) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:08:54,410 INFO  [stdout] (default task-14) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:08:54,515 INFO  [stdout] (default task-15) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:08:54,521 INFO  [stdout] (default task-16) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:09:23,027 INFO  [stdout] (default task-17) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:09:23,029 INFO  [stdout] (default task-18) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:09:23,266 INFO  [stdout] (default task-19) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:09:23,289 INFO  [stdout] (default task-20) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:09:37,950 INFO  [stdout] (default task-22) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:09:37,951 INFO  [stdout] (default task-21) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:09:38,080 INFO  [stdout] (default task-23) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:09:38,210 INFO  [stdout] (default task-24) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:11:22,334 INFO  [stdout] (default task-26) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:11:22,338 INFO  [stdout] (default task-25) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:11:22,418 INFO  [stdout] (default task-27) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:11:22,432 INFO  [stdout] (default task-28) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:11:38,942 INFO  [stdout] (default task-29) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:11:38,946 INFO  [stdout] (default task-30) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:11:39,157 INFO  [stdout] (default task-31) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:11:39,215 INFO  [stdout] (default task-32) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:14:53,830 INFO  [stdout] (default task-33) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:14:53,833 INFO  [stdout] (default task-34) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:14:53,909 INFO  [stdout] (default task-35) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:14:53,911 INFO  [stdout] (default task-36) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:15:19,309 INFO  [stdout] (default task-38) pt.example.entity.EMAIL@10a9a238
+2017-09-27 16:17:44,135 INFO  [stdout] (default task-39) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:17:44,135 INFO  [stdout] (default task-40) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:17:44,218 INFO  [stdout] (default task-41) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:17:44,219 INFO  [stdout] (default task-42) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:18:16,855 INFO  [stdout] (default task-43) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:18:16,856 INFO  [stdout] (default task-44) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:18:16,999 INFO  [stdout] (default task-45) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:18:17,041 INFO  [stdout] (default task-46) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:19:02,299 INFO  [stdout] (default task-47) pt.example.entity.EMAIL@54e848df
+2017-09-27 16:24:16,293 INFO  [stdout] (default task-48) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:24:16,306 INFO  [stdout] (default task-49) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:24:16,410 INFO  [stdout] (default task-50) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:24:16,440 INFO  [stdout] (default task-51) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:25:43,547 INFO  [stdout] (default task-53) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:25:43,564 INFO  [stdout] (default task-52) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:25:43,640 INFO  [stdout] (default task-55) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:25:43,652 INFO  [stdout] (default task-54) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:26:18,669 INFO  [stdout] (default task-56) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:26:18,679 INFO  [stdout] (default task-57) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:26:18,839 INFO  [stdout] (default task-58) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:26:18,892 INFO  [stdout] (default task-59) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:28:21,915 INFO  [stdout] (default task-61) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:28:21,916 INFO  [stdout] (default task-60) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:28:22,030 INFO  [stdout] (default task-62) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:28:22,152 INFO  [stdout] (default task-63) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:35:05,904 INFO  [stdout] (default task-64) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:35:05,955 INFO  [stdout] (default task-1) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:35:06,009 INFO  [stdout] (default task-1) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:35:06,073 INFO  [stdout] (default task-2) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:35:56,048 INFO  [stdout] (default task-5) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:35:56,058 INFO  [stdout] (default task-4) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:35:56,169 INFO  [stdout] (default task-6) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:35:56,221 INFO  [stdout] (default task-7) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:37:31,571 INFO  [stdout] (default task-8) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:37:31,600 INFO  [stdout] (default task-10) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:37:31,645 INFO  [stdout] (default task-9) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:37:31,656 INFO  [stdout] (default task-11) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:37:49,185 INFO  [stdout] (default task-12) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:37:49,186 INFO  [stdout] (default task-13) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:37:49,242 INFO  [stdout] (default task-15) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:37:49,243 INFO  [stdout] (default task-14) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:40:30,431 INFO  [stdout] (default task-17) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:40:30,431 INFO  [stdout] (default task-16) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:40:30,489 INFO  [stdout] (default task-18) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:40:30,489 INFO  [stdout] (default task-19) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:41:12,811 INFO  [stdout] (default task-22) pt.example.entity.EMAIL@2051a75a
+2017-09-27 16:42:46,345 INFO  [stdout] (default task-21) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:42:46,345 INFO  [stdout] (default task-23) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:42:46,401 INFO  [stdout] (default task-24) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:42:46,405 INFO  [stdout] (default task-26) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:43:18,090 INFO  [stdout] (default task-25) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:43:18,091 INFO  [stdout] (default task-27) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:43:18,311 INFO  [stdout] (default task-28) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:43:18,328 INFO  [stdout] (default task-29) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:44:52,771 INFO  [stdout] (default task-30) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:44:52,771 INFO  [stdout] (default task-31) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:44:52,842 INFO  [stdout] (default task-32) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:44:52,842 INFO  [stdout] (default task-33) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:52:12,001 INFO  [stdout] (default task-35) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:52:12,001 INFO  [stdout] (default task-34) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:52:12,059 INFO  [stdout] (default task-36) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:52:12,059 INFO  [stdout] (default task-37) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:55:00,405 INFO  [stdout] (default task-38) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:55:00,406 INFO  [stdout] (default task-39) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:55:00,406 INFO  [stdout] (default task-40) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:55:00,490 INFO  [stdout] (default task-41) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:56:33,099 INFO  [stdout] (default task-43) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:56:33,203 INFO  [stdout] (default task-42) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:56:33,289 INFO  [stdout] (default task-44) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:56:33,342 INFO  [stdout] (default task-44) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:58:10,768 INFO  [stdout] (default task-46) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:58:10,768 INFO  [stdout] (default task-47) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:58:10,823 INFO  [stdout] (default task-47) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:58:10,825 INFO  [stdout] (default task-49) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:58:55,629 INFO  [stdout] (default task-50) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 16:58:55,629 INFO  [stdout] (default task-51) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:58:55,776 INFO  [stdout] (default task-53) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 16:58:55,828 INFO  [stdout] (default task-52) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 16:59:19,884 INFO  [stdout] (default task-54) pt.example.entity.EMAIL@19028937
+2017-09-27 17:01:26,592 INFO  [stdout] (default task-56) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:01:26,593 INFO  [stdout] (default task-57) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:01:26,650 INFO  [stdout] (default task-58) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:01:26,681 INFO  [stdout] (default task-59) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:02:48,955 INFO  [stdout] (default task-60) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:02:48,955 INFO  [stdout] (default task-62) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:02:49,016 INFO  [stdout] (default task-61) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:02:49,020 INFO  [stdout] (default task-63) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:04:39,259 INFO  [stdout] (default task-3) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:04:39,259 INFO  [stdout] (default task-64) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:04:39,316 INFO  [stdout] (default task-1) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:04:39,337 INFO  [stdout] (default task-2) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:04:59,445 INFO  [stdout] (default task-5) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:04:59,468 INFO  [stdout] (default task-4) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:04:59,590 INFO  [stdout] (default task-6) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:04:59,634 INFO  [stdout] (default task-7) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:05:37,396 INFO  [stdout] (default task-8) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:05:37,397 INFO  [stdout] (default task-10) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:05:37,553 INFO  [stdout] (default task-9) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:05:37,606 INFO  [stdout] (default task-11) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:06:13,354 INFO  [stdout] (default task-13) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:06:13,355 INFO  [stdout] (default task-12) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:06:13,468 INFO  [stdout] (default task-15) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:06:13,469 INFO  [stdout] (default task-14) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:07:22,722 INFO  [stdout] (default task-16) pt.example.entity.EMAIL@64bf469d
+2017-09-27 17:08:38,221 INFO  [stdout] (default task-18) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:08:38,221 INFO  [stdout] (default task-17) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:08:38,292 INFO  [stdout] (default task-19) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:08:38,298 INFO  [stdout] (default task-20) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:09:21,475 INFO  [stdout] (default task-22) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:09:21,476 INFO  [stdout] (default task-23) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:09:21,654 INFO  [stdout] (default task-21) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:09:21,725 INFO  [stdout] (default task-24) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:10:29,074 INFO  [stdout] (default task-25) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:10:29,074 INFO  [stdout] (default task-26) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:10:29,139 INFO  [stdout] (default task-27) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:10:29,151 INFO  [stdout] (default task-28) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:11:45,101 INFO  [stdout] (default task-29) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:11:45,103 INFO  [stdout] (default task-30) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:11:45,164 INFO  [stdout] (default task-31) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:11:45,167 INFO  [stdout] (default task-33) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:14:17,252 INFO  [stdout] (default task-34) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:14:17,252 INFO  [stdout] (default task-32) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:14:17,328 INFO  [stdout] (default task-35) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:14:17,334 INFO  [stdout] (default task-36) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:17:05,851 INFO  [stdout] (default task-37) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:17:05,852 INFO  [stdout] (default task-39) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:17:05,960 INFO  [stdout] (default task-41) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:17:05,963 INFO  [stdout] (default task-38) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:17:46,904 INFO  [stdout] (default task-40) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:17:46,906 INFO  [stdout] (default task-42) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:17:47,079 INFO  [stdout] (default task-43) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:17:47,128 INFO  [stdout] (default task-45) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:20:23,609 INFO  [stdout] (default task-46) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:20:23,609 INFO  [stdout] (default task-44) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:20:23,666 INFO  [stdout] (default task-48) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:20:23,678 INFO  [stdout] (default task-47) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:20:57,168 INFO  [stdout] (default task-49) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:20:57,170 INFO  [stdout] (default task-50) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:20:57,328 INFO  [stdout] (default task-51) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:20:57,384 INFO  [stdout] (default task-53) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:22:46,016 INFO  [stdout] (default task-52) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:22:46,017 INFO  [stdout] (default task-55) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:22:46,073 INFO  [stdout] (default task-55) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:22:46,076 INFO  [stdout] (default task-57) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:23:35,336 INFO  [stdout] (default task-56) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:23:35,337 INFO  [stdout] (default task-58) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:23:35,498 INFO  [stdout] (default task-59) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:23:35,546 INFO  [stdout] (default task-62) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:24:13,909 INFO  [stdout] (default task-60) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:24:13,911 INFO  [stdout] (default task-61) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:24:14,079 INFO  [stdout] (default task-63) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:24:14,145 INFO  [stdout] (default task-64) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:25:49,112 INFO  [stdout] (default task-3) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:25:49,112 INFO  [stdout] (default task-1) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:25:49,168 INFO  [stdout] (default task-2) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:25:49,175 INFO  [stdout] (default task-5) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:26:28,452 INFO  [stdout] (default task-4) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:26:28,453 INFO  [stdout] (default task-6) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:26:28,616 INFO  [stdout] (default task-7) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:26:28,662 INFO  [stdout] (default task-8) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:27:23,568 INFO  [stdout] (default task-10) Hibernate: select ab_dic_lin0_.ID_LINHA as ID_LINHA1_4_, ab_dic_lin0_.COR as COR2_4_, ab_dic_lin0_.DATA_ANULACAO as DATA_ANU3_4_, ab_dic_lin0_.INATIVO as INATIVO4_4_, ab_dic_lin0_.NOME_LINHA as NOME_LIN5_4_, ab_dic_lin0_.UTZ_ANULACAO as UTZ_ANUL6_4_ from AB_DIC_LINHA ab_dic_lin0_ where ab_dic_lin0_.INATIVO<>1
+2017-09-27 17:27:23,569 INFO  [stdout] (default task-9) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:27:23,723 INFO  [stdout] (default task-11) Hibernate: select ger_perfil0_.ID_PERFIL_LIN as ID_PERFI1_22_, ger_perfil0_.ID_CAMPO as ID_CAMPO2_22_, ger_perfil0_.ID_PERFIL_CAB as ID_PERFI3_22_ from GER_PERFIL_LIN ger_perfil0_ cross join GER_UTZ_PERFIL ger_utz_pe1_ where ger_utz_pe1_.ID_UTZ=? and ger_perfil0_.ID_PERFIL_CAB=ger_utz_pe1_.ID_PERFIL and (?='null' or ger_perfil0_.ID_CAMPO=?)
+2017-09-27 17:27:23,769 INFO  [stdout] (default task-12) Hibernate: select ger_utiliz0_.ID_UTILIZADOR as ID_UTILI1_23_, ger_utiliz0_.ADMIN as ADMIN2_23_, ger_utiliz0_.COD_UTZ as COD_UTZ3_23_, ger_utiliz0_.DATA_ANULACAO as DATA_ANU4_23_, ger_utiliz0_.DATA_CRIA as DATA_CRI5_23_, ger_utiliz0_.EMAIL as EMAIL6_23_, ger_utiliz0_.INATIVO as INATIVO7_23_, ger_utiliz0_.LOGIN as LOGIN8_23_, ger_utiliz0_.NOME_UTILIZADOR as NOME_UTI9_23_, ger_utiliz0_.PASSWORD as PASSWOR10_23_, ger_utiliz0_.UTZ_ANULACAO as UTZ_ANU11_23_ from GER_UTILIZADORES ger_utiliz0_ where ger_utiliz0_.INATIVO<>1
+2017-09-27 17:28:16,304 INFO  [stdout] (default task-15) pt.example.entity.EMAIL@21323267

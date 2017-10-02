@@ -26,6 +26,10 @@
   background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
 }
 
+.codeexiste > div{
+    border: solid 1px red !important;
+}
+
 .ui-dialog {
     position: fixed;
     padding: 0
@@ -201,7 +205,7 @@
 .im {
   position: relative;
   text-align: center;
-  height: 120px;
+  height: 129px;
   display: block;
   fill: #525151;
 }
